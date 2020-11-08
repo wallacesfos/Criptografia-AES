@@ -33,7 +33,7 @@ if(pergunta == 'Y'){
     try {
         descriptografia.final();
       } catch (err) {
-        console.error('Authentication failed!');
+        console.error('Falha na Autenticação!');
         return;
       }
       console.log(descriptografando);
