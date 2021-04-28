@@ -37,6 +37,6 @@ if(pergunta == 'Y'){
         return;
       }
       console.log(descriptografando);
-}if(pergunta == 'N'){
+}else if(pergunta == 'N'){
     console.log('Programa encerrado')
 }
